@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>To-Do List</h1>
+    <div class="input-container">
+        <input type="text" id="taskInput" placeholder="Add a new task...">
+        <button id="addTaskButton">Add Task</button>
+    </div>
+    <p id="errorMessage" class="error-message" style="display:none;"></p>
+    <div class="filters">
+        <select id="filterSelect">
+            <option value="all">All</option>
+            <option value="complete">Complete</option>
+            <option value="incomplete">Incomplete</option>
+        </select>
+    </div>
+    <ul id="taskList"></ul>
+    <div class="summary">
+        <p>Total Tasks: <span id="totalTasks">0</span></p>
+        <p class="Tc">Tasks Completed: <span id="tasksCompleted">0</span></p>
+    </div>
+    <button id="deleteAllBtn">Delete All Tasks</button>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
