@@ -1,4 +1,3 @@
-To-Do List Project Description
 The To-Do List project is a user-friendly and interactive web application developed using HTML, CSS, and JavaScript. This project offers an efficient way to organize daily tasks by providing essential features and a visually appealing interface.
 
 Key Features:
